@@ -1,6 +1,7 @@
 object Hi {
   def main(args: Array[String]) = println("Hi!")
 
+  // Non original code
   def sort(xs: Array[Int]): Array[Int] = {
     if (xs.length < 1) xs
     else {
@@ -12,6 +13,7 @@ object Hi {
     }
   }
 
+  // Original code
   def squareDouble(x: Double): Double = x*x
 
   def sumOfMultiples3And5(): Integer = {
